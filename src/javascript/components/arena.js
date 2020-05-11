@@ -13,7 +13,7 @@ export function renderArena(selectedFighters) {
   // todo:
   // - start the fight
   // - when fight is finished show winner
-  fight(showWinnerModal).catch(e => console.error(e));
+  fight(...selectedFighters).then(showWinnerModal).catch(e => console.error(e));
 }
 
 function createArena(selectedFighters) {

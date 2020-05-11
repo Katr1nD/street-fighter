@@ -1,4 +1,5 @@
 import { showModal } from "./modal";
+import { createElement } from "../../helpers/domHelper";
 export function showWinnerModal(fighter) {
   // call showModal function 
 
